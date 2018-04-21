@@ -15,4 +15,4 @@ RUN rpm -i https://folding.stanford.edu/releases/public/release/fahclient/centos
 ADD config.xml /etc/fahclient/
 RUN chown fahclient:root /etc/fahclient/config.xml
 
-CMD /etc/init.d/FAHClient start && tail -F /var/lib/fahclient/log.txt
+CMD /etc/init.d/FAHClient start; tail -F /var/lib/fahclient/log.txt
