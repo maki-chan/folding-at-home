@@ -1,9 +1,9 @@
 <config>
-  <user value="{{USERNAME}}"/>
-  <team value="{{TEAM}}"/>
-  <passkey value="{{PASSKEY}}"/>
+  <user value="makikatze"/>
+  <team value="111065"/>
+  <passkey value="6e612ef06fd811134a20325963d28fb4"/>
 
-  <power value="{{POWER}}"/>
+  <power value="medium"/>
   <gpu value="false"/>
   <fold-anon value="false"/>
 </config>
